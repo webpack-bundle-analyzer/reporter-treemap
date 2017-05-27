@@ -1,0 +1,4 @@
+lib
+reporter/public
+node_modules
+npm-debug.log
