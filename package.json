@@ -1,6 +1,6 @@
 {
   "name": "@webpack-bundle-analyzer/reporter-treemap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reporter for webpack-bundle-analyzer that represents bundle content as convenient interactive zoomable treemap",
   "author": "Yury Grunin <grunin.ya@ya.ru>",
   "contributors": [
@@ -28,10 +28,10 @@
     "lint": "eslint --ext js,jsx ."
   },
   "files": [
-    "public",
     "lib",
-    "src",
-    "views"
+    "reporter/public",
+    "reporter/views",
+    "src"
   ],
   "dependencies": {
     "chalk": "^1.1.3",
